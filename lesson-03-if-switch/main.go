@@ -52,10 +52,18 @@ import "fmt"
 // 	}
 // }
 
-func main() {
-	isBlocked := false
+// func main() {
+// 	isBlocked := false
 
-	if !isBlocked {
-		fmt.Println("User Active")
+// 	if !isBlocked {
+// 		fmt.Println("User Active")
+// 	}
+// }
+
+func main() {
+
+	if age := 20; age >= 18 {
+		fmt.Println("Adult")
 	}
+
 }
