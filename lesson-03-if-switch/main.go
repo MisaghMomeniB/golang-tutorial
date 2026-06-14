@@ -68,19 +68,33 @@ import "fmt"
 
 // }
 
+// func main() {
+
+// 	day := "Monday"
+
+// 	switch day {
+// 	case "Monday":
+// 		fmt.Println("Start of Week")
+
+// 	case "Friday":
+// 		fmt.Println("Weekend Coming")
+
+// 	default:
+// 		fmt.Println("Normal Day")
+// 	}
+
+// }
+
 func main() {
 
-	day := "Monday"
+	day := "Saturday"
 
 	switch day {
-	case "Monday":
-		fmt.Println("Start of Week")
-
-	case "Friday":
-		fmt.Println("Weekend Coming")
+	case "Saturday", "Sunday":
+		fmt.Println("Weekend")
 
 	default:
-		fmt.Println("Normal Day")
+		fmt.Println("Work Day")
 	}
 
 }
