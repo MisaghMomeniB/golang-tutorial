@@ -10,12 +10,26 @@ import "fmt"
 // 	}
 // }
 
-func main() {
-	age := 16
+// func main() {
+// 	age := 16
 
-	if age >= 18 {
-		fmt.Println("Adult")
+// 	if age >= 18 {
+// 		fmt.Println("Adult")
+// 	} else {
+// 		fmt.Println("Under Age")
+// 	}
+// }
+
+func main() {
+	score := 85
+
+	if score >= 90 {
+		fmt.Println("Grade A")
+	} else if score >= 80 {
+		fmt.Println("Grade B")
+	} else if score >= 70 {
+		fmt.Println("Grade C")
 	} else {
-		fmt.Println("Under Age")
+		fmt.Println("Failed")
 	}
 }
