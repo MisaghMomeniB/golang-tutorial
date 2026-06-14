@@ -85,16 +85,35 @@ import "fmt"
 
 // }
 
+// func main() {
+
+// 	day := "Saturday"
+
+// 	switch day {
+// 	case "Saturday", "Sunday":
+// 		fmt.Println("Weekend")
+
+// 	default:
+// 		fmt.Println("Work Day")
+// 	}
+
+// }
+
 func main() {
 
-	day := "Saturday"
+	score := 75
 
-	switch day {
-	case "Saturday", "Sunday":
-		fmt.Println("Weekend")
+	switch {
+	case score >= 90:
+		fmt.Println("A")
+
+	case score >= 80:
+		fmt.Println("B")
+
+	case score >= 70:
+		fmt.Println("C")
 
 	default:
-		fmt.Println("Work Day")
+		fmt.Println("F")
 	}
-
 }
