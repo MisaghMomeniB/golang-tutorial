@@ -60,10 +60,27 @@ import "fmt"
 // 	}
 // }
 
+// func main() {
+
+// 	if age := 20; age >= 18 {
+// 		fmt.Println("Adult")
+// 	}
+
+// }
+
 func main() {
 
-	if age := 20; age >= 18 {
-		fmt.Println("Adult")
+	day := "Monday"
+
+	switch day {
+	case "Monday":
+		fmt.Println("Start of Week")
+
+	case "Friday":
+		fmt.Println("Weekend Coming")
+
+	default:
+		fmt.Println("Normal Day")
 	}
 
 }
