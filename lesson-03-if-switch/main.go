@@ -20,16 +20,25 @@ import "fmt"
 // 	}
 // }
 
-func main() {
-	score := 85
+// func main() {
+// 	score := 85
 
-	if score >= 90 {
-		fmt.Println("Grade A")
-	} else if score >= 80 {
-		fmt.Println("Grade B")
-	} else if score >= 70 {
-		fmt.Println("Grade C")
-	} else {
-		fmt.Println("Failed")
+// 	if score >= 90 {
+// 		fmt.Println("Grade A")
+// 	} else if score >= 80 {
+// 		fmt.Println("Grade B")
+// 	} else if score >= 70 {
+// 		fmt.Println("Grade C")
+// 	} else {
+// 		fmt.Println("Failed")
+// 	}
+// }
+
+func main() {
+	age := 25
+	hasLicense := true
+
+	if age >= 18 && hasLicense {
+		fmt.Println("Can Drive")
 	}
 }
