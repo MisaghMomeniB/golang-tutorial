@@ -43,11 +43,19 @@ import "fmt"
 // 	}
 // }
 
-func main() {
-	isAdmin := false
-	isOwner := true
+// func main() {
+// 	isAdmin := false
+// 	isOwner := true
 
-	if isAdmin || isOwner {
-		fmt.Println("Access Granted")
+// 	if isAdmin || isOwner {
+// 		fmt.Println("Access Granted")
+// 	}
+// }
+
+func main() {
+	isBlocked := false
+
+	if !isBlocked {
+		fmt.Println("User Active")
 	}
 }
